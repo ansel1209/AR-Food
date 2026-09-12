@@ -26,14 +26,18 @@
 
     <p>價格：$280</p>
 
-    <model-viewer
-        src="models/burger.glb"
-        ar
-        ar-modes="webxr scene-viewer quick-look"
-        camera-controls
-        shadow-intensity="1"
-        ar-scale="fixed"
-        alt="牛肉漢堡">
+  <model-viewer
+    src="models/burger.glb"
+    ar
+    ar-modes="quick-look"
+    camera-controls
+    shadow-intensity="1"
+    ar-scale="fixed"
+    alt="牛肉漢堡">
+
+    <button slot="ar-button" id="ar-button">
+        📱 放到桌上看看
+    </button>
 
     </model-viewer>
 
